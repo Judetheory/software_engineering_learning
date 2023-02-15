@@ -1,0 +1,12 @@
+#!/bin/bash
+
+To search for the shell tpyes your operating system support. This code below can work on unix operating systm
+	run cat /etc/shells
+
+To know where your bash is located
+	which bash
+
+To create a empty file
+	touch file_name
+
+

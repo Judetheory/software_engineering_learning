@@ -1,0 +1,22 @@
+#!/bin/bash
+#echo "Enter names : "
+#read name1 name2 name3
+#echo "Entered names : $name1 , $name2 $name3"
+
+
+# we can have this in one line by using the argument -p. To execute the above, uncomment by removing # except the first line. The -s hides what you are typing
+
+#read -p 'username : ' user_val
+#read -sp 'password : ' pass_var
+#echo
+#echo "username :  $user_var"
+#echo "password :  $pass_var"
+
+#we use one read command to input multiple values as array
+
+echo "3 most loved Africa country: "
+read -a names
+echo "Names: {$names[0], $names[1], $names[2]}
+
+
+#NB the default variable for read command is REPLY. so if you didnt create aany variable, then you can use REPLY and it will out your answer.
