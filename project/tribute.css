@@ -1,0 +1,38 @@
+main {
+    background-color: rgb(214, 211, 211);
+    margin: 20px 10px;
+}
+
+#name {
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.image {
+    background-color: rgb(250, 249, 247);
+    margin: 20px;
+}
+#photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; padding: 15px 0;
+    }
+
+div p {
+    justify-content: center;
+    text-align: center; padding-bottom: 10px;
+}
+
+#bio {text-align: center; justify-content: center; padding: 25px 0;}
+
+#list {padding-left: 20%; padding-right: 20%;}
+
+
+#link {
+    justify-content: center;
+    text-align: center;
+}
+
+ul > li { padding: 10px 0;}
